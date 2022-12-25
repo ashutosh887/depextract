@@ -44,7 +44,11 @@ export const extractCurrent = async () => {
 
     console.log(chalk.green("Production script generation: Successful ✅"));
   } else {
-    console.log(chalk.red("No dependency found: ❌"));
+    console.log(
+      chalk.red(
+        "Production script generation: Unsuccessful (no dependency found) ❌"
+      )
+    );
   }
 
   if (devDependencies !== undefined) {
@@ -59,7 +63,11 @@ export const extractCurrent = async () => {
     });
     console.log(chalk.green("Development script generation: Successful ✅"));
   } else {
-    console.log(chalk.red("No devDependency found: ❌"));
+    console.log(
+      chalk.red(
+        "Development script generation: Unsuccessful (no devDependency found) ❌"
+      )
+    );
   }
 };
 

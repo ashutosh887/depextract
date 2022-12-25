@@ -1,7 +1,7 @@
 {
   "name": "depextract",
   "version": "1.1.0",
-  "description": "Dependency extractor script and CLI Code generator for package.json. ",
+  "description": "Dependency extractor CLI script for package.json",
   "type": "module",
   "repository": {
     "type": "git",
@@ -26,9 +26,6 @@
   "dependencies": {
     "chalk": "^5.2.0",
     "chalk-animation": "^2.0.3",
-    "figlet": "^1.5.2",
-    "gradient-string": "^2.0.2",
-    "inquirer": "^9.1.4",
-    "nanospinner": "^1.1.0"
+    "inquirer": "^9.1.4"
   }
 }

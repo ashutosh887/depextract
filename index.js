@@ -6,7 +6,7 @@ import { extractCurrent, extractPath } from "./src/extractors.js";
 
 const sleep = (ms = 1000) => new Promise((r) => setTimeout(r, ms));
 
-async function welcome() {
+async function depextract() {
   const rainbowTitle = chalkAnimation.rainbow(
     "depextract: Dependency extractor for package.json \n"
   );
@@ -37,5 +37,5 @@ async function selectOperation() {
   handleOperation(selection.operation);
 }
 
-await welcome();
+await depextract();
 await selectOperation();
