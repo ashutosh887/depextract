@@ -1,6 +1,6 @@
 {
   "name": "depextract",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Dependency extractor CLI script for package.json",
   "type": "module",
   "repository": {
@@ -13,9 +13,10 @@
   },
   "bin": "./index.js",
   "keywords": [
-    "CLI",
+    "cli",
     "tool",
-    "npx"
+    "npx",
+    "package.json"
   ],
   "author": "Ashutosh Jha",
   "license": "ISC",

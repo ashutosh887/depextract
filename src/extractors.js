@@ -42,11 +42,11 @@ export const extractCurrent = async () => {
       }
     });
 
-    console.log(chalk.green("Production script generation: Successful ✅"));
+    console.log(chalk.green("dependency script generation: Successful ✅"));
   } else {
     console.log(
       chalk.red(
-        "Production script generation: Unsuccessful (no dependency found) ❌"
+        "dependency script generation: Unsuccessful (no dependency found) ❌"
       )
     );
   }
@@ -61,11 +61,11 @@ export const extractCurrent = async () => {
         throw new Error("Can't write to file");
       }
     });
-    console.log(chalk.green("Development script generation: Successful ✅"));
+    console.log(chalk.green("devDependency script generation: Successful ✅"));
   } else {
     console.log(
       chalk.red(
-        "Development script generation: Unsuccessful (no devDependency found) ❌"
+        "devDependency script generation: Unsuccessful (no devDependency found) ❌"
       )
     );
   }
