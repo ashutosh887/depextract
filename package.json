@@ -1,6 +1,6 @@
 {
   "name": "depextract",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Dependency extractor script and CLI Code generator for package.json. ",
   "type": "module",
   "repository": {
