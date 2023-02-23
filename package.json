@@ -9,9 +9,10 @@
   },
   "main": "index.js",
   "scripts": {
+    "acp": "git add . && npm run commit && git push",
     "commit": "git-cz",
     "start": "node .",
-    "semantic-release": "semantic-release --branch main"
+    "semantic-release": "semantic-release --branches main"
   },
   "bin": "./index.js",
   "keywords": [
