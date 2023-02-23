@@ -1,15 +1,16 @@
 {
   "name": "depextract",
-  "version": "1.1.2",
+  "version": "0.0.0-development",
   "description": "Dependency extractor CLI script for package.json",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashutosh887/depextract.git"
+    "url": "https://github.com/ashutosh887/depextract.git"
   },
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "semantic-release": "semantic-release --branch main"
   },
   "bin": "./index.js",
   "keywords": [
@@ -28,5 +29,8 @@
     "chalk": "^5.2.0",
     "chalk-animation": "^2.0.3",
     "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "semantic-release": "^20.1.0"
   }
 }
