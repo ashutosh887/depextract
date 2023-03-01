@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         node-version: 18
-        os: ubuntu-latest
+        os: ["ubuntu-latest"]
 
     steps:
       - uses: actions/checkout@v3
@@ -30,7 +30,7 @@ jobs:
       - run: npm test --if-present
 
   publish:
-    runs-on: ubuntu-latest
+    runs-on: ["ubuntu-latest"]
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: [build]
     steps:
