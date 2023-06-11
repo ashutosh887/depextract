@@ -1,6 +1,8 @@
 # depextract 
+
 **depextract is a CLI tool to extract dependencies from package.json.**
 
+[![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://www.jsdocs.io/package/depextract)
 
 ## Use case
 Suppose you are trying to upgrade your project or create a new project with same dependencies as another project.
