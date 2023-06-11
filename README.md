@@ -10,14 +10,12 @@ Now, the first thing you might require is list of Production and Dev Dependencie
 
 To extract and generate a CLI Script based on your Package manager configuration, you may use <a href="https://www.npmjs.com/package/depextract" target="_blank">depextract</a>
 
-
-## Installation:
+### Installation:
 ```
   npx depextract
 ```
 
-
-## Usage
+### Usage
 - Open the directory where package.json resides
 - Use:
   ```
@@ -32,7 +30,6 @@ To extract and generate a CLI Script based on your Package manager configuration
   ```
 - Select the package manager to be used for upcoming project (npm, yarn, pnpm, etc.)
 - Generated scripts reside in **scripts.sh**
-
 
 ## Author
 - [Ashutosh Jha](https://www.github.com/ashutosh887)
