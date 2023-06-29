@@ -28,5 +28,8 @@
     "chalk": "^5.2.0",
     "chalk-animation": "^2.0.3",
     "inquirer": "^9.1.4"
+  },
+  "publishConfig": {
+    "@ashutosh887:registry": "https://npm.pkg.github.com"
   }
 }
