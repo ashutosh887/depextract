@@ -1,5 +1,5 @@
 {
-  "name": "@ashutosh887/depextract",
+  "name": "depextract",
   "version": "1.3.0",
   "description": "Dependency extractor CLI script for package.json",
   "type": "module",
@@ -28,5 +28,8 @@
     "chalk": "^5.2.0",
     "chalk-animation": "^2.0.3",
     "inquirer": "^9.1.4"
+  },
+  "publishConfig": {
+    
   }
 }
