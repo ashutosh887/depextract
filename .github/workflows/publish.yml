@@ -17,9 +17,7 @@ jobs:
 
       - name: Install dependencies
         run: npm i
-
-      - name: Build package
-        run: npm run build
+        working-directory: ./
 
       - name: Publish to GitHub Packages
         run: npm publish --registry=https://npm.pkg.github.com/
