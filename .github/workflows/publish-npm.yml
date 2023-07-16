@@ -1,4 +1,4 @@
-name: Publish Node.js Package on NPM
+name: Publish Package on NPM
 
 on:
   push:
@@ -12,8 +12,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
-        os: [ubuntu-latest, windows-latest]
+        node-version: [16.x]
+        os: [ubuntu-latest]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
