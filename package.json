@@ -1,6 +1,6 @@
 {
   "name": "@ashutosh887/depextract",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Dependency extractor CLI script for package.json",
   "type": "module",
   "repository": {

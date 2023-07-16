@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
-        os: [ubuntu-latest, windows-latest]
+        os: ubuntu-latest
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -41,6 +41,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
+      - run: npm publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
