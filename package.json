@@ -1,5 +1,5 @@
 {
-  "name": "@ashutosh887/depextract",
+  "name": "depextract",
   "version": "1.4.0",
   "description": "Dependency extractor CLI script for package.json",
   "type": "module",
