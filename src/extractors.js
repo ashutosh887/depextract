@@ -72,5 +72,5 @@ export const extractCurrent = async () => {
 };
 
 export const extractPath = () => {
-  console.log(chalk.red("This feature is currently in progress..."));
+  console.log(chalk.red("This is an upcoming feature v2... 🤞🏻"));
 };
