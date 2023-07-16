@@ -38,5 +38,8 @@ To extract and generate a CLI Script based on your Package manager configuration
 - [Ashutosh Jha](https://www.github.com/ashutosh887)
 
 
+## Blogs:
+- Introductory: [Hashnode](https://ashutosh887.hashnode.dev/introducing-depextract)
+
 ## License
 This project is under the [MIT License](https://choosealicense.com/licenses/mit/)
