@@ -72,5 +72,5 @@ export const extractCurrent = async () => {
 };
 
 export const extractPath = () => {
-  console.log(chalk.red("This is an upcoming feature v2... 🤞🏻"));
+  console.log(chalk.red("This feature has been deprecated and will be available in upcoming releases... 🤞🏻"));
 };
