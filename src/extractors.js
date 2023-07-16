@@ -52,9 +52,9 @@ export const extractCurrent = async () => {
   }
 
   if (devDependencies !== undefined) {
-    let devScript = `${manager} ${packageManagers[manager]} ${Object.keys(
+    let devScript = `${manager} ${packageManagers[manager]} -D ${Object.keys(
       devDependencies
-    ).join(" ")} --save-dev ${os.EOL}`;
+    ).join(" ")} ${os.EOL}`;
 
     await fs.appendFile("scripts.sh", devScript, (error) => {
       if (error) {
