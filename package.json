@@ -1,6 +1,6 @@
 {
   "name": "@ashutosh887/depextract",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Dependency extractor CLI script for package.json",
   "type": "module",
   "repository": {
@@ -33,6 +33,7 @@
     "inquirer": "^9.1.4"
   },
   "publishConfig": {
-    "@ashutosh887:registry": "https://npm.pkg.github.com"
+    "@ashutosh887:registry": "https://npm.pkg.github.com",
+    "registry": "https://registry.npmjs.org/"
   }
 }
